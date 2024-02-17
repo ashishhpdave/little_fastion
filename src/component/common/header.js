@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
-
+import { IoMdPerson } from "react-icons/io";
+import { FaShoppingBag } from "react-icons/fa";
 function Header({page}){
     return(
         <>
@@ -43,9 +44,9 @@ function Header({page}){
                         </ul>
 
                         <div className="d-none d-lg-block">
-                            <NavLink to="sign-in.html" className="bi-person custom-icon me-3"></NavLink>
+                            <NavLink to="sign-in.html" className="bi-person custom-icon me-3"><IoMdPerson /></NavLink>
 
-                            <NavLink to="product-detail.html" className="bi-bag custom-icon"></NavLink>
+                            <NavLink to="product-detail.html" className="bi-bag custom-icon"><FaShoppingBag /></NavLink>
                         </div>
                     </div>
                 </div>
