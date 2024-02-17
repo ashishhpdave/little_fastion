@@ -1,3 +1,4 @@
+import AboutSection from "../../component/common/aboutSection"
 import Header from "../../component/common/header"
 import Hero from "../../component/common/heroSection"
 
@@ -8,6 +9,7 @@ function HomePage(){
                 <Header page="Home"/>
             </header>
             <Hero />
+            <AboutSection />
         </>
     )
 }
