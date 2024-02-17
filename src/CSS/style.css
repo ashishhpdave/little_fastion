@@ -925,6 +925,8 @@ https://www.tooplate.com/view/2127-little-fashion
   
   .product-title-link {
     color: var(--dark-color);
+    font-family: sans-serif;
+    text-decoration: none;
   }
   
   .product-additional-link {
@@ -951,6 +953,8 @@ https://www.tooplate.com/view/2127-little-fashion
     text-transform: uppercase;
     color: var(--p-color);
     font-size: 13px;
+    font-family: sans-serif;
+    text-decoration: none;
     font-weight: var(--font-weight-bold);
     border-bottom: 2px solid var(--grey-color);
     padding-bottom: 6px;
@@ -995,7 +999,9 @@ https://www.tooplate.com/view/2127-little-fashion
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-  
+   .footerHeading{
+    text-decoration: none;
+   }
   .footer-menu {
     margin: 0;
     padding: 0;
@@ -1012,6 +1018,7 @@ https://www.tooplate.com/view/2127-little-fashion
     display: inline-block;
     vertical-align: top;
     margin-top: 4px;
+    text-decoration: none;
     margin-bottom: 4px;
   }
   
