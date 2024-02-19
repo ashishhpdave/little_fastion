@@ -1025,6 +1025,10 @@ https://www.tooplate.com/view/2127-little-fashion
   .site-footer .social-icon-link {
     margin-top: 4px;
   }
+
+  .chooseText{
+    font-size: 60px;
+  }
   
   .site-footer .social-icon-link:hover,
   .footer-menu-link:hover {

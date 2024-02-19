@@ -27,11 +27,11 @@ function Header({page}){
                             </li>
 
                             <li className="nav-item">
-                                <NavLink className={page === 'Home' ? '  nav-link ' : '  nav-link '}to="story">Story</NavLink>
+                                <NavLink className={page === 'Story' ? '  nav-link ' : '  nav-link '}to="/story">Story</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="products.html">Products</NavLink>
+                                <NavLink className={page === 'Product' ? '  nav-link ' : '  nav-link '}to="/product">Products</NavLink>
                             </li>
 
                             <li className="nav-item">
