@@ -4,16 +4,16 @@ import Header from "../../../component/common/header"
 import MainProduct from "../../../component/mainProduct"
 
 
-function ProductPage(){
-    return(
+function ProductPage() {
+    return (
         <>
             <header>
-                <Header page="Product"/>
+                <Header page="Product" />
             </header>
-            <ChooseFavrat />
+            <ChooseFavrat title="Choose your favorite stuffs"/>
             <MainProduct />
             <Footer />
-        </> 
+        </>
     )
 }
 

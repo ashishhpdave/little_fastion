@@ -1,5 +1,6 @@
 
-function ChooseFavrat(){
+function ChooseFavrat(item){
+    const {title}=item
     return(
         <>
              <header className="site-header section-padding d-flex justify-content-center align-items-center mt-5">
@@ -8,8 +9,7 @@ function ChooseFavrat(){
 
                         <div className="col-lg-10 col-12">
                             <h1>
-                                <span className="d-block text-primary chooseText">Choose your</span>
-                                <span className="d-block text-dark chooseText" >favorite stuffs</span>
+                                <span className="d-block text-primary chooseText">{title}</span>
                             </h1>
                         </div>
                     </div>
