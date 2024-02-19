@@ -23,11 +23,11 @@ function Header({page}){
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item">
-                                <NavLink className="nav-link active" to="index.html">Home</NavLink>
+                                <NavLink  className={page === 'Home' ? '  nav-link active' : '  nav-link active'}to="/">Home</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="about.html">Story</NavLink>
+                                <NavLink className={page === 'Home' ? '  nav-link ' : '  nav-link '}to="story">Story</NavLink>
                             </li>
 
                             <li className="nav-item">
