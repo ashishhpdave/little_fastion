@@ -1,7 +1,7 @@
 import ChooseFavrat from "../../../component/ChooseFav"
 import Footer from "../../../component/common/footer"
 import Header from "../../../component/common/header"
-import SignupFrom from "../../../component/common/login&Signup"
+import ContactDeatils from "../../../component/common/login&Signup"
 
 function ContactPage(){
     return(
@@ -10,7 +10,7 @@ function ContactPage(){
                 <Header page="Contact"/>
             </header>
             <ChooseFavrat title="Contact Us"/>
-            <SignupFrom />
+            <ContactDeatils />
             <Footer />
         </>
     )

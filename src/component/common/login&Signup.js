@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 
-function SignupFrom(){
+function ContactDeatils(){
     return(
         <>
               <section className="contact section-padding">
@@ -68,4 +68,4 @@ function SignupFrom(){
     )
 }
 
-export default SignupFrom
+export default ContactDeatils
