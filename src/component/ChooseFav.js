@@ -9,7 +9,7 @@ function ChooseFavrat(item){
 
                         <div className="col-lg-10 col-12">
                             <h1>
-                                <span className="d-block text-primary chooseText">{title}</span>
+                                <span className="d-block text-primary orange chooseText " style={{backgroundColor : "#FFA500;"}}>{title}</span>
                             </h1>
                         </div>
                     </div>
