@@ -7,6 +7,7 @@ import ProductPage from './Pages/Home/Product'
 import FAQsPage from './Pages/Home/FAQ'
 import ContactPage from './Pages/Home/Contact'
 import SignInPage from './Pages/Home/Sign-In'
+import ProductDeatilsPage from './Pages/Home/ProductDeatils'
 
 function Root(){
     return(
@@ -19,6 +20,7 @@ function Root(){
                     <Route path='/FAQ' element={<FAQsPage />}/>
                     <Route path='/contact_us' element={<ContactPage />}/>
                     <Route path='/Sign_In' element={<SignInPage />}/>
+                    <Route path='/product_Deatils' element={<ProductDeatilsPage />}/>
                 </Routes>
             </BrowserRouter>
         </>

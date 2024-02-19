@@ -45,7 +45,7 @@ function Header({page}){
 
                            <div className="d-flex mt-4">
                            <NavLink className= {page === 'bi-person custom-icon me-3' ? '   nav-link active ' : '  nav-link '}to="/Sign_In"><IoMdPerson /></NavLink>
-                            <NavLink className= {page === 'bi-bag custom-icon' ? '   nav-link active ' : '  nav-link '}to="/Sign_In"><FaShoppingBag /></NavLink>
+                            <NavLink className= {page === 'bi-bag custom-icon' ? '   nav-link active ' : '  nav-link '}to="/product_Deatils"><FaShoppingBag /></NavLink>
     
                            </div>
                     </div>
