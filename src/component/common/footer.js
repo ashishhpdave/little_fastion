@@ -14,7 +14,7 @@ function Footer(){
                         <h4 className="text-white mb-3 footerHeading"><NavLink to="">Little</NavLink> Fashion</h4>
                         <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>Little Fashion</strong></p>
                         <br/>
-                        <p className="copyright-text">Designed by <NavLink to="" target="_blank">ashishhpdave</NavLink></p>
+                        <p className="copyright-text">Designed by <NavLink to="https://github.com/ashishhpdave" target="_blank">ashishhpdave</NavLink></p>
                     </div>
 
                     <div className="col-lg-5 col-8">
